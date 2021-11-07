@@ -1,0 +1,6 @@
+[submodule "RobotSim"]
+	path = RobotSim
+	url = https://github.com/MelodyLiu012/RobotSim
+[submodule "Pitter"]
+	path = Pitter
+	url = https://github.com/MelodyLiu012/Pitter
