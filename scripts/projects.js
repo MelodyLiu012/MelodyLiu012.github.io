@@ -9,7 +9,7 @@ const projectInfo = [
   },
   {
     name: "Pitter",
-    img: "../assets/project-sc/pitter-sc.jpg", 
+    img: "../assets/project-sc/pitter-sc.png", 
     desc: "A virtual room where you can write with rain and soothing music.",
     techs: [],
     sourceLink: "https://github.com/MelodyLiu012/Pitter",
