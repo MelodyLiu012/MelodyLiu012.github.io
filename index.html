@@ -7,22 +7,86 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
-    <h2>Melody Liu</h2>
-    <h4>About Me</h4>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum tenetur vero vel molestiae quo et vitae voluptatibus quae iusto voluptatem porro cupiditate, repudiandae dolorem impedit, minima natus deserunt labore?
-    <h4>Projects</h4>
-    <div>
-      <a href="https://melodyliu012.github.io/Pitter">Pitter</a>  
+
+    <div id="sidebar">
+      <div id="home-btn" class="selectedPageBtn" onclick="scrollToHome()">Home</div>
+      <div id="about-me-btn" onclick="scrollToAboutMe()">About Me</div>
+      <div id="projects-btn" onclick="scrollToProjects()">Projects</div>
+      <div id="contact-btn" onclick="scrollToContact()">Contact</div>
+      <!-- <a href=""></a> -->
     </div>
-    <div>
-      <a href="https://melodyliu012.github.io/RobotSim">Robot Soccer</a>   
+
+    <div id="main-content">
+      <div class="section-div" id="home">
+        <h1>Melody Liu</h1>
+        <div>Computer Science Student</div>
+      </div>
+      <div class="section-div" id="about-me">
+        <h2>About Me</h2>
+        <div class="h-bar"></div>
+        <p>
+          I am a developer with a passion for building visually pleasing, intuitive user interfaces and useful tools that make daily life easier.
+          My most used technologies are HTML/CSS/JS, React, Express, and Node.js for app development, but I also have experience with Python, Java, and Kotlin.
+          <br><br>
+          I also work with C/C++ in embedded systems and robotics, notably as the 
+            Programming Lead in my former <a href="https://www.frc4669.org">FIRST Robotics team</a> and 
+            member of the firmware subteam in my current <a href="http://frucd.org">Formula SAE team.</a>
+        </p>
+      </div>
+      <div class="section-div" id="projects">
+        <h2>Projects</h2>
+        <div class="h-bar"></div>
+        <div id="projects-div">
+          <!-- <project-card></project-card> -->
+          <!-- <div>
+            <a href="https://melodyliu012.github.io/OwOChat">OwOChat</a>
+            <p>A global chat that owoifies your speech. Includes an owoification level slider + owo and uwu counters.</p>
+            <div class="tech-tag-div">
+              <div class="tech-tag">React</div>
+              <div class="tech-tag">Firebase</div>
+            </div>
+          </div>
+          <div>
+            <a href="https://melodyliu012.github.io/Pitter">Pitter</a>  
+            <p>A virtual room where you can write with rain and soothing music.</p>
+          </div>
+          <div>
+            <a href="https://melodyliu012.github.io/RobotSoccer">Robot Soccer</a>
+            <p>A 3D browser-based split-screen game made with Babylon.js</p>  
+          </div>
+          <div>
+            <a href="https://melodyliu012.github.io/Calendar-Note-Tracker">Calendar-Note-Tracker</a>
+            <p>A non-traditional note-taking app with organization by date. Useful for progress and task tracking, or any note-taking where the date is relevant.</p>
+          </div>
+          <div>
+            <a href="https://melodyliu012.github.io/Gungi">Gungi</a>
+            <p>An online multiplayer board game based off of popular anime Hunter x Hunter.</p>
+          </div> -->
+        </div>
+      </div>
+      <div class="section-div" id="contact">
+        <h2>Contact</h2>
+        <div class="h-bar"></div>
+        <p>
+          <div>
+            Email: <a href="mailto: melodyliu0012@gmail.com">melodyliu0012@gmail.com</a>
+          </div>
+          <div>
+            LinkedIn: <a href="https://www.linkedin.com/in/melody-liu1/" target="_blank">linkedin.com/in/melody-liu1</a> 
+          </div>
+          <div>
+            Github: <a href="https://github.com/MelodyLiu012" target="_blank">github.com/MelodyLiu012</a>
+          </div>
+        </p>
+      </div>
     </div>
-    <div>
-      <a href="https://melodyliu012.github.io/OwOChat">OwOChat</a>
-    </div>
+    
+
+    <script src="scripts/index.js"></script> 
+    <script src="scripts/projects.js"></script>
     
   </body>
 </html>
