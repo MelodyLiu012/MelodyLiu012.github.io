@@ -25,9 +25,9 @@ const projectInfo = [
   },
   {
     name: "Calendar-Note-Tracker",
-    img: "../assets/project-sc/#",
+    img: "../assets/project-sc/note-taker-sc.png",
     desc: "A non-traditional note-taking app with organization by date. Useful for progress and task tracking, or any note-taking where the date is relevant.",
-    techs: ["ReactJS"],
+    techs: ["ReactJS", "Node.js", "Express.js", "MySQL"],
     sourceLink: "https://github.com/MelodyLiu012/Calendar-Note-Tracker",
     deployedLink: "https://melodyliu012.github.io/Calendar-Note-Tracker"
   },
@@ -95,6 +95,5 @@ projectInfo.map( (proj) => {
     `
   );
 });
-console.log(newHTML);
 
 document.querySelector("#projects-div").innerHTML = newHTML;
