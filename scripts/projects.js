@@ -42,28 +42,6 @@ const projectInfo = [
 
 ]
 
-// class ProjectCard extends HTMLElement {
-//   constructor () {
-//     super();
-
-//     this.innerHTML = 
-//     `<div>
-//       <div class="proj-title">OwOChat</div>
-//       <img src="../assets/owochat-sc.png">
-//       <p>A global chat that owoifies your speech. Includes an owoification level slider + owo and uwu counters.</p>
-//       <div class="tech-tag-div">
-//         <div class="tech-tag">React</div>
-//         <div class="tech-tag">Firebase</div>
-//       </div>
-//     </div>`
-//   }
-// }
-
-// Define the new web component
-// if ('customElements' in window) {
-// 	customElements.define('project-card', ProjectCard);
-// }
-
 
 let newHTML = "";
 projectInfo.map( (proj) => {
