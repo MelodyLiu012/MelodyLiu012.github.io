@@ -16,12 +16,12 @@ const projectInfo = [
     deployedLink: "https://melodyliu012.github.io/Pitter"
   },
   {
-    name: "Robot Soccer",
+    name: "Car Soccer",
     img: "../assets/project-sc/#",
     desc: "A 3D browser-based split-screen game made with Babylon.js",
     techs: ["BabylonJS"],
-    sourceLink: "https://github.com/MelodyLiu012/RobotSoccer",
-    deployedLink: "https://melodyliu012.github.io/RobotSoccer"
+    sourceLink: "https://github.com/MelodyLiu012/CarSoccer",
+    deployedLink: "https://melodyliu012.github.io/CarSoccer"
   },
   {
     name: "Calendar-Note-Tracker",
