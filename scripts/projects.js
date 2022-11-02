@@ -3,7 +3,7 @@ const projectInfo = [
     name: "OwOChat",
     img: "../assets/project-sc/owochat-sc.png",
     desc: "A global chat that owoifies your speech. Featuring an owo-ification level slider, owo and uwu counter, and multiple chat rooms.",
-    techs: ["ReactJS", "Firebase"],
+    techs: ["React.js", "Firebase"],
     sourceLink: "https://github.com/MelodyLiu012/OwOChat",
     deployedLink: "https://melodyliu012.github.io/OwOChat"
   },
@@ -19,7 +19,7 @@ const projectInfo = [
     name: "Car Soccer",
     img: "../assets/project-sc/#",
     desc: "A 3D browser-based split-screen game made with Babylon.js",
-    techs: ["BabylonJS"],
+    techs: ["Babylon.js"],
     sourceLink: "https://github.com/MelodyLiu012/CarSoccer",
     deployedLink: "https://melodyliu012.github.io/CarSoccer"
   },
@@ -27,7 +27,7 @@ const projectInfo = [
     name: "Calendar-Note-Tracker",
     img: "../assets/project-sc/note-taker-sc.png",
     desc: "A non-traditional note-taking app with organization by date. Useful for progress and task tracking, or any note-taking where the date is relevant.",
-    techs: ["ReactJS", "Node.js", "Express.js", "MySQL"],
+    techs: ["React.js", "Node.js", "Express.js", "MySQL"],
     sourceLink: "https://github.com/MelodyLiu012/Calendar-Note-Tracker",
     deployedLink: "https://melodyliu012.github.io/Calendar-Note-Tracker"
   },
@@ -35,7 +35,7 @@ const projectInfo = [
   //   name: "Gungi",
   //   img: "../assets/project-sc/#",
   //   desc: "An online multiplayer board game based off of popular anime Hunter x Hunter.",
-  //   techs: ["ReactJS"],
+  //   techs: ["React.js"],
   //   sourceLink: "https://github.com/MelodyLiu012/Gungi",
   //   deployedLink: "https://melodyliu012.github.io/Gungi"
   // },
