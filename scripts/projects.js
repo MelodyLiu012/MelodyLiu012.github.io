@@ -17,7 +17,7 @@ const projectInfo = [
   },
   {
     name: "Car Soccer",
-    img: "../assets/project-sc/#",
+    img: "../assets/project-sc/car-soccer.png",
     desc: "A 3D browser-based split-screen game made with Babylon.js",
     techs: ["Babylon.js"],
     sourceLink: "https://github.com/MelodyLiu012/CarSoccer",
@@ -31,14 +31,6 @@ const projectInfo = [
     sourceLink: "https://github.com/MelodyLiu012/Calendar-Note-Tracker",
     deployedLink: "https://melodyliu012.github.io/Calendar-Note-Tracker"
   },
-  // {
-  //   name: "Gungi",
-  //   img: "../assets/project-sc/#",
-  //   desc: "An online multiplayer board game based off of popular anime Hunter x Hunter.",
-  //   techs: ["React.js"],
-  //   sourceLink: "https://github.com/MelodyLiu012/Gungi",
-  //   deployedLink: "https://melodyliu012.github.io/Gungi"
-  // },
 
 ]
 
